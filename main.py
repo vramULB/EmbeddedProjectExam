@@ -99,6 +99,10 @@ def callWasher():
     reset = 0
     while reset == 0:
         print("CONNECTED WASHER")
+        print("-----------------------------------------------------------")
+        print("|The current state is : " + "                                  |")
+        print("-----------------------------------------------------------")
+        # Todo Recover information from broker on the state
         print("Choose a action (1-3) : ")
         print("###################################")
         print("1. Run a new cycle")
